@@ -49,7 +49,7 @@ Exe, arguments, input file, output file
 # Line 24 labels the input files to target
 default is .vgs, change as necessary
 
-# Line 30 forces converted files to share the same name as input
+# Line 30 (v1, 29 in v2) forces converted files to share the same name as input
 With an exception: _MFConvert is appended onto your filename. Change this as necessary.
 
 
