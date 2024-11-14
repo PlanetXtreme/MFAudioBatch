@@ -35,7 +35,8 @@ You need to replace OUTPUT_DIR with your output directory. An example is provide
 
 
 
-# Relevant MFAudio readMe: "You can also use the utility from the command line (type 'MFAudio /?' for available options). This can be useful if you are creating a rip kit, for example, you can write a batch file that will run this utility to downsample all the music in the game."
+# Relevant MFAudio readMe: 
+"You can also use the utility from the command line (type 'MFAudio /?' for available options). This can be useful if you are creating a rip kit, for example, you can write a batch file that will run this utility to downsample all the music in the game."
 
 
 An example command line call, that does not use this batch script, may look like this:
