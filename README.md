@@ -3,7 +3,7 @@ Simply running this batch is not enough to get your script to work. *You need to
 
 You need the directory of your mfaudio.exe file with your own MFAUDIO_PATH= line. An example is provided.
 
-You need to set your arguments for MFAudio accordingly. You can also call MFAudio.exe /? to get a list of arguments, or see the arguments below***.
+You need to set your arguments for MFAudio accordingly. You can also call *MFAudio.exe /?* to get a list of arguments, or see the arguments below***.
 
 You need to replace INPUT_DIR with your input directory. An example is provided.
 
