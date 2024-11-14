@@ -7,7 +7,7 @@ REM set "MFAUDIO_PATH=C:\Tools\MFAudio.exe"
 set "MFAUDIO_PATH=C:\Tools\MFAudio.exe"
 
 REM available arguments in ReadME, or by calling "MFAudio.exe /?"
-set "ARGS=/IC1 /IF28800 /OTWAVU"
+set "ARGS=/IC1 /IF48000 /OTWAVU"
 
 REM Input directory contains input audio file(s). Output is output.
 REM next line(s) example
