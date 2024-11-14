@@ -1,5 +1,5 @@
 # READ ME BEFORE EXECUTING.
-Simply running this batch is not enough to get your script to work. *You need to make the following changes relative to your system:*
+**Simply running this batch is not enough to get your script to work.** You need to make the following changes relative to your system:
 
 You need the directory of your mfaudio.exe file with your own MFAUDIO_PATH= line. An example is provided.
 
