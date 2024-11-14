@@ -56,7 +56,7 @@ With an exception: _MFConvert is appended onto your filename. Change this as nec
 # Relevant MFAudio readMe: 
 "You can also use the utility from the command line (type 'MFAudio /?' for available options). This can be useful if you are creating a rip kit, for example, you can write a batch file that will run this utility to downsample all the music in the game."
 
-#errors
+# errors
 
 "The system cannot find the path specified." Means you incorrectly provided a path for MFAudio.exe
 
