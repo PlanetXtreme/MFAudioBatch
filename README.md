@@ -33,6 +33,9 @@ You need to replace OUTPUT_DIR with your output directory. An example is provide
 
 "OutputFile"	Output file to convert to
 
+# Line 24 labels the input files to target
+default is .vgs, change as necessary
+
 # Line 30 forces converted files to share the same name as input
 With an exception: _MFConvert is appended onto your filename. Change this as necessary.
 
