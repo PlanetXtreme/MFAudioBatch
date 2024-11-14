@@ -40,6 +40,12 @@ You need to replace OUTPUT_DIR with your output directory. An example is provide
 
 "OutputFile"	Output file to convert to
 
+An example command line call to MFAudio, that does not use this batch script, may look like this:
+
+"G:\Tools\MFAudio.exe" /IC1 /IF20000 /OTWAVU "G:\compound\r_state0_9_alt.vgs" "G:\compound\output.wav"
+
+Exe, arguments, input file, output file
+
 # Line 24 labels the input files to target
 default is .vgs, change as necessary
 
@@ -51,10 +57,6 @@ With an exception: _MFConvert is appended onto your filename. Change this as nec
 "You can also use the utility from the command line (type 'MFAudio /?' for available options). This can be useful if you are creating a rip kit, for example, you can write a batch file that will run this utility to downsample all the music in the game."
 
 
-An example command line call, that does not use this batch script, may look like this:
 
-"G:\Tools\MFAudio.exe" /IC1 /IF20000 /OTWAVU "G:\compound\r_state0_9_alt.vgs" "G:\compound\output.wav"
-
-Exe, arguments, input file, output file
 
 
