@@ -47,6 +47,7 @@ With an exception: _MFConvert is appended onto your filename. Change this as nec
 An example command line call, that does not use this batch script, may look like this:
 
 "G:\Tools\MFAudio.exe" /IC1 /IF20000 /OTWAVU "G:\compound\r_state0_9_alt.vgs" "G:\compound\output.wav"
+
 Exe, arguments, input file, output file
 
 
