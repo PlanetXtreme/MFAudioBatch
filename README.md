@@ -11,17 +11,28 @@ You need to replace OUTPUT_DIR with your output directory. An example is provide
 
 
 # ***Valid argument line options for MFAudio:
+
 /IFnnnnn	Input frequency
+
 /ICn	Input channels
+
 /IIxxxx	Input interleave (hex)
+
 /IHxxxx	Input headerskip (hex)
+
 /OTtttt	Output type (WAVU, VAGC,
 	 SS2U, SS2C, RAWU, RAWC)
+  
 /OFnnnnn	Output frequency
+
 /OCn	Output channels
+
 /OIxxxx	Output interleave (hex)
+
 "InputFile"	Input file to play/convert
+
 "OutputFile"	Output file to convert to
+
 
 
 # Relevant MFAudio readMe: "You can also use the utility from the command line (type 'MFAudio /?' for available options). This can be useful if you are creating a rip kit, for example, you can write a batch file that will run this utility to downsample all the music in the game."
