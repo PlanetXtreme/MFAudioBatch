@@ -20,16 +20,15 @@ set "OUTPUT_DIR=C:\Users\you\downloads\output"
 REM Ensure the output directory exists
 if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
 
-REM Loop through each .vgs file in the input directory
+REM Loop through each SPECIFIC FILETYPE IN DIRECTORY. LABEL THIS AS NECESSARY.
 for %%F in ("%INPUT_DIR%\*.vgs") do (
-    REM Get the filename without the path
+    REM filename without path
     set "FILENAME=%%~nF"
 
-    REM Define input and output paths with delayed expansion
     set "INPUT_FILE=%%F"
     set "OUTPUT_FILE=%OUTPUT_DIR%\!FILENAME!_MFConvert.wav"
 
-    REM Run MFAudio with specified arguments and input/output paths
+    REM Run MFAudio with arguments and input/output
     echo Processing: "!INPUT_FILE!"
     "%MFAUDIO_PATH%" %ARGS% "!INPUT_FILE!" "!OUTPUT_FILE!"
 )
