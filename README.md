@@ -1,5 +1,12 @@
 # READ ME BEFORE EXECUTING.
-**Simply running this batch is not enough to get your script to work.** You need to make the following changes relative to your system:
+
+#FOR V2
+
+You only need to adjust the arguments (info below). Otherwise, this script runs on all the (by default, and changeable) .vgs files in the directory the script is run from, and tries to use a provided MFAudio file if its in the same working directory: If not, adjust the path (line 14) or paste MFAudio.exe in the same working directory. An output folder is automatically created. You can stop reading now if you don't need to learn more.
+
+#*FOR V1,*
+
+**Simply running this batch is not enough to get your script to work.**  You need to make the following changes relative to your system:
 
 You need the directory of your mfaudio.exe file with your own MFAUDIO_PATH= line. An example is provided.
 
