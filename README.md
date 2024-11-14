@@ -43,3 +43,6 @@ An example command line call, that does not use this batch script, may look like
 
 "G:\Games\NotSteamRelated\PS2\Antigrav\Tools\MFAudio.exe" /IC1 /IF20000 /OTWAVU "G:\Games\NotSteamRelated\PS2\Antigrav\ExtractionTry2\sound\samples\vo\compound\r_state0_9_alt.vgs" "G:\Games\NotSteamRelated\PS2\Antigrav\Tools\CubeMediaPlayer\sound\vo\compound\MF_Audio\output.wav"
 
+# Line 30 forces converted files to share the same name as input
+With an exception: _MFConvert is appended onto your filename. Change this as necessary.
+
