@@ -1,6 +1,6 @@
 # READ ME BEFORE EXECUTING.
 
-#FOR V2
+#*FOR V2*
 
 You only need to adjust the arguments (***info below). Otherwise, this script runs on all the (by default, and adjustable) .vgs files in the directory the script is run from, and tries to use a provided MFAudio file if its in the same working directory: If not, adjust the path (line 14) or paste MFAudio.exe in the same working directory. An output folder is automatically created. You can stop reading now if you don't need to learn more.
 
