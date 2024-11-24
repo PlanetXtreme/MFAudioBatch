@@ -2,7 +2,7 @@
 
 #FOR V2
 
-You only need to adjust the arguments (***info below). Otherwise, this script runs on all the (by default, and changeable) .vgs files in the directory the script is run from, and tries to use a provided MFAudio file if its in the same working directory: If not, adjust the path (line 14) or paste MFAudio.exe in the same working directory. An output folder is automatically created. You can stop reading now if you don't need to learn more.
+You only need to adjust the arguments (***info below). Otherwise, this script runs on all the (by default, and adjustable) .vgs files in the directory the script is run from, and tries to use a provided MFAudio file if its in the same working directory: If not, adjust the path (line 14) or paste MFAudio.exe in the same working directory. An output folder is automatically created. You can stop reading now if you don't need to learn more.
 
 #*FOR V1,*
 
@@ -46,7 +46,7 @@ An example command line call to MFAudio, that does not use this batch script, ma
 
 Exe, arguments, input file, output file
 
-# Line 24 labels the input files to target
+# Line 24 labels the input filetypes to target
 default is .vgs, change as necessary
 
 # Line 30 (v1, 29 in v2) forces converted files to share the same name as input
